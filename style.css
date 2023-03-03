@@ -1,0 +1,74 @@
+body {
+    overflow-x: hidden;
+}
+
+.bg-dark .card {
+    background-color: #5C636A;
+    color: #fff
+}
+
+.loader-width {
+    width: 100%;
+    background-color: #d0cccc;
+    height: 18px;
+    border-radius: 20px;
+}
+
+.loader-inner {
+    height: 100%;
+    background-color: #f93e14;
+    border-radius: 20px;
+    width: 0%;
+
+}
+
+.counter {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border-radius: 50%;
+}
+
+@keyframes move-25 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 25%;
+    }
+}
+
+@keyframes move-50 {
+    0% {
+        width: 25%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes move-75 {
+    0% {
+        width: 50%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes move-100 {
+    0% {
+        width: 75%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
